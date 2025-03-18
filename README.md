@@ -17,7 +17,11 @@ the base fonts and config for my development used. include source code, jetbrain
 - code-font
 	- JetBrains Mono VF
 	- SourceCodeVF
-	
+- maple-font
+	- Maple Mono Normal NL NF CN
+
+> Maple is a combined font embed with icons, Chinese and Japanese glyphs. the characteristic of perfect 2:1 alignment between Chinese and English allows this font to achieve a neat, uniform, beautiful, and comfortable appearance in scenarios such as multilingual display and Markdown tables.   
+
 ## Install
 
 Linux:  
@@ -25,15 +29,16 @@ Linux:
 git clone xxxxxxxxxxxxxxxxx
 cd dev-fonts
 # system space
-sudo cp -r code-font misans-font ms-font /usr/share/fonts/
+sudo cp -r code-font misans-font ms-font maple-font /usr/share/fonts/
 # user space
-sudo cp -r code-font misans-font ms-font ~/.fonts/
+sudo cp -r code-font misans-font ms-font maple-font ~/.fonts/
 ```
 
 windows:  
 > Select fonts ttf files,  then mouse right click,  install for all user  
 
 ## Links
+- https://github.com/subframe7536/maple-font
 - https://github.com/adobe-fonts/source-code-pro
 - https://hyperos.mi.com/font/download
 - Windows 11 
